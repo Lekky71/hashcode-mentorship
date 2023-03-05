@@ -1,4 +1,4 @@
-const age = 1000;
+const age = 34;
 // if (age >= 13 && age < 20) {
 //   console.log('You are a teenager');
 // } else {
@@ -23,3 +23,21 @@ if (age <= 0) {
 }
 
 console.log(person);
+
+switch (person) {
+  case 'child':
+    console.log('You are a mini human');
+    break;
+  case 'teenager':
+    // console.log('You are growing up small smALL now');
+    // break;
+  case 'adult':
+    // console.log('You are paying taxes now');
+    console.log('You can go out on your own');
+    break;
+  case 'elder':
+    console.log('You don dey old');
+    break;
+  default:
+    console.log('You no fall into any category oo');
+}
