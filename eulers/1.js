@@ -9,3 +9,6 @@ function getSum() {
 }
 
 console.log(getSum());
+
+// ASSIGNMENT IS TO SOLVE PROJECT EULER 2 - 6
+// https://projecteuler.net
