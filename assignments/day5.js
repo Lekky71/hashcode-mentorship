@@ -60,7 +60,12 @@ function calculateGPA(courseList) {
   let totalPoints = 0;
   coursesPoints.forEach(point => {
     totalPoints += point;
-  })
+  });
+  // Alternative
+  // Array with length 5 -> 0 1 2 3 4
+  // for(let i = 0; i < coursesPoints.length; i++) {
+  //   const point = coursesPoints[i];
+  // }
   let totalUnits = 0;
 
   courseList.forEach(course => {
