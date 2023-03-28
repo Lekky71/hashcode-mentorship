@@ -16,6 +16,15 @@
 // 10. Deliver food
 // 11. Wash your hand
 
+/* 1. The name of the function
+   2. The parameters
+   3. The statements/logic inside the function
+   4. The returned data; return
+ */
+function sayHello() {
+  console.log('Hello');
+}
+
 function sayHello(name) {
   console.log('Hello', name);
 }
@@ -38,3 +47,10 @@ function getFullName(firstName, lastName, middleName) {
 console.log(getFullName('Boluwatife', 'Ojo', 'Fiyinfoluwa'));
 console.log(getFullName('Boluwatife', 'Tunde-Lawal', 'John'));
 console.log(getFullName('Liberty', 'Fakolade', 'Semilore'));
+
+function getNumberTimes700(num) {
+  const result = multiplyBy7(num) * 100;
+  return result;
+}
+
+console.log(getNumberTimes700(20));
