@@ -20,5 +20,6 @@ function diagonalDifference(arr) {
     const j = arr.length - 1 - i;
     diagonalDiff -= arr[i][j];
   }
+  console.log('Hello World');
   return Math.abs(diagonalDiff);
 }
