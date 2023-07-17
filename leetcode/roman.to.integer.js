@@ -71,7 +71,7 @@ const intToRoman = function (num) {
       if (dividend <= 3) {
         for (i = 0; i < dividend; i++) { // more changes pending
           resultString += pairs[romanDigit];
-          // we have to account for V, L, and D
+          // we have to account for V, L, and D..
         }
       } else {
         resultString += ``;
