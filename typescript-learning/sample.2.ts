@@ -179,3 +179,13 @@ interface Hair {
   length: number;
   isCurly: boolean;
 }
+
+type StudentType = {
+  matricNum: string;
+  name: string;
+}
+
+const studentB: StudentType = {
+  matricNum: 'U2015/3020002',
+  name: 'Bolu',
+};
