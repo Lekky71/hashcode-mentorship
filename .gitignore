@@ -1,2 +1,3 @@
 .idea
 /typescript-learning/dist/*
+/node_modules
