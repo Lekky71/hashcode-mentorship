@@ -1,6 +1,9 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
+// fs => file system | the module for file and folder manipulation
+// read, write, delete, rename files and folders.
+
 // This operation is IO-blocking.
 // path module is used to resolve the path to the file.
 const filePath = path.join(__dirname, 'data/jargon.txt');
