@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "@types/node": "^20.4.4"
+    "@types/node": "20.4.4"
   }
 }
