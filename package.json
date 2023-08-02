@@ -1,5 +1,23 @@
 {
+  "name": "hashcode-mentorship",
+  "description": "### Sunday April 2nd 2023 Hoisting: https://developer.mozilla.org/en-US/docs/Glossary/Hoisting Scope : https://developer.mozilla.org/en-US/docs/Glossary/Scope Rest: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters Spread : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax Recursion Solved Euler #2 Assignment: https://www.hackerrank.com/challenges/ctci-making-anagrams/problem?h_l=interview&isFullScreen=true&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=strings",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lekky71/hashcode-mentorship.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lekky71/hashcode-mentorship/issues"
+  },
+  "homepage": "https://github.com/Lekky71/hashcode-mentorship#readme",
   "dependencies": {
-    "@types/node": "20.4.4"
+    "@types/node": "20.4.4",
+    "express": "^4.18.2"
   }
 }
